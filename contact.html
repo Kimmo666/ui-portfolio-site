@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系我 | 你的名字</title>
+    <meta name="description" content="联系 UI 设计师：邮箱、社媒与项目合作咨询。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">你的名字 / UI Designer</a>
+        <nav class="nav" aria-label="主导航">
+          <a href="index.html">首页</a>
+          <a href="works.html">作品</a>
+          <a href="about.html">关于</a>
+          <a aria-current="page" href="contact.html">联系</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <h1>联系合作</h1>
+        <p>欢迎邮件联系我获取简历、案例细节或项目合作沟通。</p>
+      </section>
+      <section class="section two-col">
+        <article class="panel">
+          <h2>联系方式</h2>
+          <div class="contact-list">
+            <a href="mailto:hello@yourname.design">hello@yourname.design</a>
+            <a href="https://behance.net/yourname">Behance</a>
+            <a href="https://dribbble.com/yourname">Dribbble</a>
+            <a href="https://linkedin.com/in/yourname">LinkedIn</a>
+          </div>
+        </article>
+        <aside class="panel">
+          <h2>快速留言</h2>
+          <form id="contact-form">
+            <label for="name">姓名</label>
+            <input id="name" name="name" type="text" required />
+            <label for="email">邮箱</label>
+            <input id="email" name="email" type="email" required />
+            <label for="message">项目需求</label>
+            <textarea id="message" name="message" required></textarea>
+            <button class="btn primary" type="submit">发送邮件</button>
+          </form>
+        </aside>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">© <span data-year></span> 你的名字. All rights reserved.</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>你的名字 | UI 设计作品集</title>
+    <meta
+      name="description"
+      content="UI 设计师个人网站，展示移动端与网页端设计案例，聚焦转化与可用性提升。"
+    />
+    <meta property="og:title" content="你的名字 | UI 设计作品集" />
+    <meta
+      property="og:description"
+      content="查看 3 个核心案例：银行产品重设计、电商结算优化、医疗预约体验升级。"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">你的名字 / UI Designer</a>
+        <nav class="nav" aria-label="主导航">
+          <a aria-current="page" href="index.html">首页</a>
+          <a href="works.html">作品</a>
+          <a href="about.html">关于</a>
+          <a href="contact.html">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero hero-compact">
+        <h1>UI 图片作品集</h1>
+        <p>
+          以视觉呈现为主的作品展示，覆盖移动端、网页端和多行业项目。可先浏览图片，再进入完整案例拆解。
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="works.html">浏览作品墙</a>
+          <a class="btn" href="contact.html">联系合作</a>
+        </div>
+      </section>
+
+      <section class="kv-showcase" aria-label="首页主视觉">
+        <div class="kv-main">
+          <img
+            class="photo-media"
+            src="https://picsum.photos/id/26/1800/1100"
+            data-asset="finflow/kv-main"
+            alt="首页主视觉作品图"
+            loading="eager"
+            decoding="async"
+          />
+          <div class="kv-overlay-card">
+            <strong>Featured Project</strong>
+            <span>FinFlow Banking Experience</span>
+            <small>端到端流程重设计 · iOS / Android</small>
+          </div>
+        </div>
+        <div class="kv-side">
+          <article class="kv-metric">
+            <strong>30+</strong>
+            <span>已完成项目</span>
+          </article>
+          <article class="kv-metric">
+            <strong>12</strong>
+            <span>行业合作经验</span>
+          </article>
+          <article class="kv-metric">
+            <strong>3x</strong>
+            <span>重点案例深度拆解</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="gallery-intro">
+          <h2>精选图片</h2>
+          <div class="gallery-controls" data-layout-group="home">
+            <button class="layout-btn active" type="button" data-home-layout="magazine" aria-pressed="true">
+              杂志布局
+            </button>
+            <button class="layout-btn" type="button" data-home-layout="masonry" aria-pressed="false">
+              瀑布流
+            </button>
+          </div>
+        </div>
+        <div class="photo-wall photo-wall-home" data-home-wall>
+          <a class="photo-tile large" href="case-finflow.html">
+            <div class="photo-frame">
+              <img
+                class="photo-media"
+                src="https://picsum.photos/id/0/1600/1000"
+                data-asset="finflow/home-cover"
+                alt="FinFlow 主流程视觉稿"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="photo-caption"><span>FinFlow 银行 App</span><span>移动端</span></div>
+          </a>
+          <a class="photo-tile medium" href="case-shoplane.html">
+            <div class="photo-frame">
+              <img
+                class="photo-media"
+                src="https://picsum.photos/id/20/1200/900"
+                data-asset="shoplane/home-cover"
+                alt="Shoplane Checkout 页面视觉稿"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="photo-caption"><span>Shoplane 电商</span><span>Web</span></div>
+          </a>
+          <a class="photo-tile small" href="case-healthbridge.html">
+            <div class="photo-frame">
+              <img
+                class="photo-media"
+                src="https://picsum.photos/id/96/1200/900"
+                data-asset="healthbridge/home-cover"
+                alt="HealthBridge 预约流程视觉稿"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="photo-caption"><span>HealthBridge 医疗</span><span>平台</span></div>
+          </a>
+          <a class="photo-tile medium" href="case-finflow.html">
+            <div class="photo-frame">
+              <img
+                class="photo-media"
+                src="https://picsum.photos/id/48/1200/900"
+                data-asset="finflow/home-system"
+                alt="FinFlow 组件规范展示图"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="photo-caption"><span>设计系统片段</span><span>UI Kit</span></div>
+          </a>
+          <a class="photo-tile small" href="case-shoplane.html">
+            <div class="photo-frame">
+              <img
+                class="photo-media"
+                src="https://picsum.photos/id/60/1200/900"
+                data-asset="shoplane/home-detail"
+                alt="Shoplane 结算细节视觉图"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="photo-caption"><span>转化优化细节</span><span>A/B</span></div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span data-year></span> 你的名字. All rights reserved.</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
