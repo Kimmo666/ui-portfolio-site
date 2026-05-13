@@ -24,8 +24,8 @@ Then open `http://localhost:8080`.
 
 ## Replace Before Launch
 
-- Update all `yourname` placeholders in HTML and `CONTENT_PACK.md`.
-- Replace email `hello@yourname.design`.
+- Update all branding placeholders with `Kimmo` / `Kimmo Designer`.
+- Replace email with `gkweb@foxmail.com`.
 - Update social links.
 - Add your real portfolio images under `assets/works/` following `assets/works/README.md`.
 
@@ -41,7 +41,7 @@ Then open `http://localhost:8080`.
 
 1. Push this folder to a GitHub repository.
 2. In repo settings, enable Pages from the root branch.
-3. Keep `CNAME` file with your real domain, for example `yourname.design`.
+3. Keep `CNAME` file with your real domain, for example `gaoui.com`.
 4. Add DNS records at your domain provider:
    - `A` records to GitHub Pages IPs, or
    - `CNAME` for `www` to `<username>.github.io`.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourname.design/sitemap.xml
+Sitemap: https://gaoui.com/sitemap.xml

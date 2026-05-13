@@ -49,7 +49,7 @@ Tools: Figma, FigJam, Protopie, Adobe CC
 
 ## Contact Section
 
-- Email: hello@yourname.design
-- Behance: https://behance.net/yourname
-- Dribbble: https://dribbble.com/yourname
-- LinkedIn: https://linkedin.com/in/yourname
+- Email: gkweb@foxmail.com
+- Behance: mailto:gkweb@foxmail.com
+- Dribbble: mailto:gkweb@foxmail.com
+- LinkedIn: mailto:gkweb@foxmail.com

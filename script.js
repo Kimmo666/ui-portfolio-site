@@ -23,7 +23,7 @@
         "\n\nMessage:\n" +
         message
     );
-    window.location.href = "mailto:hello@yourname.design?subject=" + subject + "&body=" + body;
+    window.location.href = "mailto:gkweb@foxmail.com?subject=" + subject + "&body=" + body;
   });
 })();
 
